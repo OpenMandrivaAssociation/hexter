@@ -11,6 +11,7 @@ Source:		http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.bz2
 URL:		http://dssi.sourceforge.net/hexter.html
 License:	GPL
 Group:		Sound
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	dssi-devel
 BuildRequires:	liblo-devel
 BuildRequires:	libalsa-devel
