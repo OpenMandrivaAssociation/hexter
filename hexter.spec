@@ -20,7 +20,7 @@ BuildRequires:	gtk2-devel
 %description
 hexter is a software synthesizer that models the sound generation of a Yamaha 
 DX7 synthesizer. It can easily load most DX7 patch bank files, accept patch 
-editing commands via MIDI sys-ex messages (ALSA systems only), and recreate the 
+editing commands via MIDI sys-ex messages (ALSA systems only), and recreate the
 sound of the DX7 with greater accuracy than any previous open-source emulation 
 (that the author is aware of....)
 
