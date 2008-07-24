@@ -1,6 +1,6 @@
 %define name	hexter
 %define version	0.5.9
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Yamaha DX7 modeling DSSI plugin
