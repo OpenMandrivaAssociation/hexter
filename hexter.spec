@@ -1,15 +1,15 @@
 %define name	hexter
-%define version	0.5.9
-%define release %mkrel 3
+%define version	0.6.2
+%define release %mkrel 1
 
 Name: 	 	%{name}
 Summary: 	Yamaha DX7 modeling DSSI plugin
 Version: 	%{version}
 Release: 	%{release}
 
-Source:		http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.bz2
+Source:		http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
 URL:		http://dssi.sourceforge.net/hexter.html
-License:	GPL
+License:	GPLv2+
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	dssi-devel
