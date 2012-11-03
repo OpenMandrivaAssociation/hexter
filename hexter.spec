@@ -1,7 +1,7 @@
 Name:       hexter
 Summary:    Yamaha DX7 modeling DSSI plugin
-Version:    1.0.0
-Release:    2
+Version:    1.0.1
+Release:    1
 
 Source:     http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
 URL:        http://dssi.sourceforge.net/hexter.html
@@ -29,7 +29,7 @@ interfaces, permitting them to be hosted in-process by audio applications.
 
 %build
 alias libtoolize=true
-LDFLAGS='-lm' %configure2_5x
+%configure2_5x
 %make
 
 %install
