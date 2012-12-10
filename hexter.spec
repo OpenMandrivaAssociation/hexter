@@ -33,7 +33,6 @@ alias libtoolize=true
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
 %files
@@ -43,3 +42,36 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/dssi/%{name}/%{name}_gtk
 %{_datadir}/%{name}/*.dx7
 
+
+
+%changelog
+* Fri Apr 27 2012 Frank Kober <emuse@mandriva.org> 0.6.2-3
++ Revision: 793831
+- rebuild, spec cleanup
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.6.2-2mdv2011.0
++ Revision: 611093
+- rebuild
+
+* Mon Dec 07 2009 Jérôme Brenier <incubusss@mandriva.org> 0.6.2-1mdv2010.1
++ Revision: 474465
+- new version 0.6.2
+- fix license tag
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.5.9-3mdv2009.0
++ Revision: 246855
+- rebuild
+- fix description-line-too-long
+
+* Wed Jan 02 2008 Olivier Blin <blino@mandriva.org> 0.5.9-1mdv2008.1
++ Revision: 140747
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import hexter
+
+
+* Sat Apr  1 2006 Austin Acton <austin@mandriva.org> 0.5.9-1mdk
+- spec from Pedro Lopez-Cabanillas <plcl@users.sourceforge.net>
+- initial package
