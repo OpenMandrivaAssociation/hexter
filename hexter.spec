@@ -4,7 +4,7 @@ Version:    1.0.1
 Release:    2
 
 Source:     http://prdownloads.sourceforge.net/dssi/%{name}-%{version}.tar.gz
-URL:        http://dssi.sourceforge.net/hexter.html
+URL:        https://dssi.sourceforge.net/hexter.html
 License:    GPLv2+
 Group:      Sound
 
