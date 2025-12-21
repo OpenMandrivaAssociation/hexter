@@ -8,6 +8,11 @@ URL:        https://dssi.sourceforge.net/hexter.html
 License:    GPLv2+
 Group:      Sound
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(dssi)
 BuildRequires:  pkgconfig(gtk+-2.0)
 BuildRequires:  pkgconfig(liblo)
